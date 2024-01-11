@@ -14,7 +14,7 @@
 
 ### 🏠 [Project Homepage](https://github.com/bcongdon/rssfilter#readme)
 
-## Installation (Docker)
+## Deployment (Docker)
 
 `git clone` and `cd` to this repo, then build a docker image with:
 
@@ -30,15 +30,15 @@ docker build . --file Dockerfile --tag rssfilter/rssfilter:latest
 2. Install frontend dependencies: `npm install`
 3. Install backend dependencies: `cargo build`
 
-## Usage
+### Usage
 
-### Backend
+#### Backend
 
 ```sh
 cargo run
 ```
 
-### Frontend
+#### Frontend
 
 ```sh
 npm run start
