@@ -14,15 +14,7 @@
 
 ### 🏠 [Project Homepage](https://github.com/bcongdon/rssfilter#readme)
 
-## Deployment (Docker)
-
-`git clone` and `cd` to this repo, then build a docker image with:
-
-```
-docker build . --file Dockerfile --tag rssfilter/rssfilter:latest
-```
-
-## Installation (Non-docker)
+## Installation
 
 (Note: You must have [npm](https://www.npmjs.com/get-npm) and [cargo](https://rustup.rs/) installed.)
 
