@@ -16,7 +16,7 @@
 
 ## Installation (Docker)
 
-`git clone` and `cd` to this repo， then build a docker image with:
+`git clone` and `cd` to this repo, then build a docker image with:
 
 ```
 docker build . --file Dockerfile --tag rssfilter/rssfilter:latest
